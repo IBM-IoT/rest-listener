@@ -1,0 +1,4 @@
+monitorRole readonly
+controlRole readwrite \
+create javax.management.monitor.*,javax.management.timer.*,com.sun.management.*,com.oracle.jrockit.* \
+unregister
